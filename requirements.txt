@@ -1,0 +1,2 @@
+# Runtime dependencies for the YDB goose migration toolkit
+colorama>=0.4.6

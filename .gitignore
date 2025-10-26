@@ -1,0 +1,80 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments and Python runtime files
+.venv/
+venv/
+.python-version
+
+# Environment and secrets
+# Keep sensitive tokens and local env files out of Git
+iam.token
+.env
+.env.*
+*.env
+*.secret
+*.secrets
+*.token
+*.pem
+*.key
+*.crt
+*.cer
+*.der
+*.p12
+*.pfx
+
+# Build, packaging, and wheel artifacts
+build/
+dist/
+.eggs/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+.wheelhouse/
+*.whl
+
+# Test, coverage, and tooling caches
+.tox/
+.nox/
+.pytest_cache/
+.mypy_cache/
+.pyre/
+.pytype/
+.coverage
+.coverage.*
+.cache/
+coverage.xml
+htmlcov/
+
+# IDE/editor settings
+.idea/
+.vscode/
+*.code-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Logs and temp
+*.log
+logs/
+*.tmp
+*.temp
+
+# Editor swap/backup files
+*~
+*.swp
+*.swo
+
+# Node/yarn (if present accidentally)
+node_modules/
+.yarn/
+
+# IMPORTANT: Do NOT ignore SQL migrations by default
+# *.sql  # <- Do not enable this; migration files must be tracked
+
+# Generated per-database migrations parent folder
+ydb_dbs/
